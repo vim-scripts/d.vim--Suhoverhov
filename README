@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2534
+
+Not much is done yet. It has the following features:
+- Autoimport. Searches the tags file for the symbol under the cursor and adds import to the module where it is declared. Default keybinding is <LocalLeader>i
+- OrganizeImports. Removes duplicates, groups imports by root packages and sorts them alphabetically. It won't break your selective and renamed imports and won't touch versioned imports. Default keybinding is <LocalLeader>o
+
+To include libraries in import search put symlinks to them in your project directory so that ctags can find the sources.
